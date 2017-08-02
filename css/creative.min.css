@@ -72,9 +72,14 @@
     color: white;
  }
 
+
  @media (max-width: 768px) {
     .navbar-default .navbar-header .navbar-brand span {
         background-image: url(../img/logogreen.svg);
+    }
+
+    video {
+        display: none;
     }
  }
 
@@ -83,7 +88,7 @@
   min-height: 100%;
   width: auto;
   height: auto;
-  background: url("../img/video.jpg");
+  background: url("../img/header.jpg");
   background-size: cover; 
 }
 
