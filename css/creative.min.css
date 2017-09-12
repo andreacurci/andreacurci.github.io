@@ -64,6 +64,11 @@
     margin-top: 3px;
  }
 
+.navbar-collapse {
+    background: white;
+    box-shadow: 0 2px 1px 1px rgba(0,0,0,.1);
+}
+
  .affix .navbar-brand span {
     background-image: url(../img/logogreen.svg);
  }
@@ -76,6 +81,9 @@
  @media (max-width: 768px) {
     .navbar-default .navbar-header .navbar-brand span {
         background-image: url(../img/logogreen.svg);
+        width: 260px;
+        height: 50px;
+        display: block;
     }
 
     video {
